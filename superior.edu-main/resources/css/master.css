@@ -1,0 +1,37 @@
+body {
+  /* padding-top: 3.5rem; */
+	background-color: var(--light) !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: var(--bs-white) !important;
+}
+
+
+/* FORMULARIO */
+/* FORMULARIO */
+.form-group label {
+  color: var(--secondary) !important;
+  font-weight: 600;
+}
+
+.form-group .form-control, .form-group .form-select {
+  border-radius: 0px !important;
+  /* border-style: solid transparent; */
+  border-width: 2px;
+  border-color: #ced4da;
+}
+
+.form-group .form-control:focus,
+.form-group .form-select:focus {
+    border-radius: 0px !important;
+    /* border-style: solid; */
+    border-width: 3px;
+    border-color: #ced4da;
+    box-shadow: 0px 0px 0px 0px; /* QUITAR todo el sombreado*/
+}
+
+.form-group .form-label {
+    /* margin-bottom: none !important; */
+		margin-bottom: 0px !important;
+}
